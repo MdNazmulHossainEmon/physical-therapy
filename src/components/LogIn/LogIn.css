@@ -1,0 +1,15 @@
+
+.login-button{
+    background-image: linear-gradient(to right, #ccc , black);
+    border: 0;
+    color: none;
+    border: 2px solid #000 !important;
+}
+.form-email input{
+    border: none;
+    border-bottom: 1px solid #000;
+    margin-bottom: 18px;
+    width: 80%;
+
+    outline: none;
+}

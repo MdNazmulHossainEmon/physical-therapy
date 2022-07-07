@@ -1,0 +1,29 @@
+.advantage{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+.advantage-title{
+    color: #464646;
+}
+.advantage-title span{
+    font-weight: bold;
+}
+.best-team h2{
+    color: #464646;
+}
+.best-team  span{
+    font-weight: bold;
+}
+.text-banner-title h3,p{
+    color: #464646;
+}
+.text-banner-title h3{
+    font-weight: bold;
+}
+.home-service-title{
+    color: #464646;
+}
+.home-service-title span{
+    font-weight: bold;
+}

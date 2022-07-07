@@ -1,0 +1,82 @@
+/* .about-us-top {
+    background: url("../../images/about/medical.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    padding: 180px 0;
+    z-index: 1;
+
+
+}
+
+.about-us-top::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+} */
+
+.treatment-pain {
+    background: url("../../images/about/1\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.treatment-pain::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+.staff-images img{  
+   
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.problem-sport{
+    background: url("../../images/about/3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding: 200px 0; */
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 200px 0;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+.problem-sport::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.about-us{
+    color: rgb(255, 253, 253);
+    font-weight: bold;
+}
+.our-clinic h3{
+    color: #464646;
+}
+.our-clinic span{
+    font-weight: bold;
+}

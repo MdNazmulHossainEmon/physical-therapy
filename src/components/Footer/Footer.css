@@ -1,0 +1,25 @@
+.footer{
+    background-color: #212529;
+    padding: 10px 0;
+}
+.footer p{
+    color: #ccc;
+
+}
+.footer-icon span{
+    display: inline-block;
+    color: #ccc;
+    margin-right: 15px;
+    font-size: 1rem;
+    border: 2px solid yellow;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.footer-icon span:hover{
+    background-color: aqua;
+    color: #464646;
+    border: 2px solid tomato;
+}

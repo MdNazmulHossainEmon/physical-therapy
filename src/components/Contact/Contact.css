@@ -1,0 +1,40 @@
+/* contact title */
+.contact-title {
+    background: url("../..//images//contact/page-title8.jpg");
+    background-size: cover;
+    padding: 80px 0;
+    padding: 40px 70px;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+  }
+  .contact-title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(136, 145, 158, 0.8);
+    z-index: -1;
+  }
+  .contact-title h3 {
+    font-weight: bold;
+  }
+.contact-mid{
+    border-bottom: 1px solid #ddd;
+}
+.contact-home{
+  font-weight: bold;
+}
+.contact-form-us{
+  color: #464646;
+}
+.contact-form-us span{
+font-weight: bold;
+}
+.contact-home{
+  color: yellow !important;
+  
+}

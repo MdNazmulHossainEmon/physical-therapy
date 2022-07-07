@@ -1,0 +1,38 @@
+.navLink {
+    text-decoration: none;
+    color: #ccc;
+    margin-right: 1.5rem;
+}
+.navLink:hover{
+    color: #ccc;
+}
+
+.physical-therapy {
+    font-weight: bold;
+    color: #ccc;
+}
+
+.hamburger-menu {
+    color: #fff !important;
+    /* background-color: #fff !important; */
+    border-color:#ccc !important;
+}
+.contact-home{
+    text-decoration: none;
+    color: #000;
+}
+.contact-home:hover{
+    color: #000;
+}
+.header-name-logout{
+    display: inline-block;
+}
+.header-name-logout span{
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 15px;
+    color: #ccc;
+}
+.header-name-logout li{
+    list-style: none;
+}
