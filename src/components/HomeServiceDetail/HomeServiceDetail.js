@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import "./HomeServiceDetail.css"
 import { useParams } from "react-router-dom";
 const HomeServiceDetail = () => {
   const { serviceId } = useParams();
@@ -21,10 +21,10 @@ const HomeServiceDetail = () => {
 
 
   return (
-    <div>
+    <div className='detail-container'>
       <h2 className='py-5 detail-title text-center'>{singleDetail?.name} Service No : {serviceId}</h2>
       <div className="container main-detail-service mb-5">
-        <div className="card detail-card" >
+        <div className="card detail-card h-100" >
           <div className="row g-0">
             <div className="col-xl-5 col-lg-6 col-md-12">
               <img src={singleDetail?.img} className="img-fluid rounded-start" alt="..." />

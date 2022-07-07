@@ -11,10 +11,12 @@ const useFirebase = () => {
     const [error, setError] = useState("");
     const [isLogin, setIsLogin] = useState(false);
     const [user, setUser] = useState({});
+    const [isLoading, setIsLoading] = useState(true);
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
 
     const signInUsingGoogle = () => {
+        setIsLoading(true)
         return signInWithPopup(auth, googleProvider);
     }
     // create a register with new password
@@ -57,7 +59,8 @@ const useFirebase = () => {
                 const user = userCredential.user;
                 console.log(user);
                 setError("");
-                //   setUser(user);
+                setIsLoading(true)
+
             })
             .catch((error) => {
                 setError(error.message)
@@ -108,10 +111,13 @@ const useFirebase = () => {
     }
     // user logout
     const logOut = () => {
+        setIsLoading(true);
         signOut(auth)
             .then(() => {
                 setUser({})
             })
+            .finally(()=>setIsLoading(false)
+            )
     }
     // handle toggleLogin
     const toggleLogin = (e) => {
@@ -128,6 +134,7 @@ const useFirebase = () => {
                 // User is signed out
                 // ...
             }
+            setIsLoading(false)
         });
 
     }, [])
@@ -146,7 +153,8 @@ const useFirebase = () => {
         processLogIn,
         verifyEmail,
         handleResetPassword,
-        handleNameChange
+        handleNameChange,
+        isLoading
 
     }
 

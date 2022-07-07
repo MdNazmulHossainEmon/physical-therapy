@@ -9,7 +9,7 @@ import HomeServiceDetail from './components/HomeServiceDetail/HomeServiceDetail'
 import LogIn from './components/LogIn/LogIn';
 import NotFound from './components/NotFound/NotFound';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
-import ServiceDetail from './components/ServiceDetail/ServiceDetail';
+// import ServiceDetail from './components/ServiceDetail/ServiceDetail';
 import Services from './components/Services/Services';
 import Header from './components/Shared/Header/Header';
 
