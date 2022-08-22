@@ -27,26 +27,31 @@ const Header = () => {
         <Navbar.Toggle className='hamburger-menu' aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className='ms-auto'>
+
             <NavLink
               style={({ isActive }) =>
                 isActive ? activeStyle : undefined}
               className='navLink' to='/home'
             >Home</NavLink>
+
             <NavLink
               style={({ isActive }) =>
                 isActive ? activeStyle : undefined}
               className='navLink' to='/services'
             >Services</NavLink>
+
             <NavLink
               style={({ isActive }) =>
                 isActive ? activeStyle : undefined}
               className='navLink' to='/about'
             >About</NavLink>
+
             <NavLink
               style={({ isActive }) =>
                 isActive ? activeStyle : undefined}
               className='navLink' to='/login'
             >Login</NavLink>
+
             <NavLink
               style={({ isActive }) =>
                 isActive ? activeStyle : undefined}
@@ -60,13 +65,12 @@ const Header = () => {
          <span >
             
             {  user?.displayName}
-  
             </span>
-  
+
           <span>
           { user.displayName && <li  onClick={logOut}>LogOut</li>}
           </span>
-  
+          
          </div>
         </Navbar.Collapse>
       </Container>
