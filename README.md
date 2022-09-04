@@ -1,6 +1,6 @@
 # Physical Therapy
 
-This project was bootstrapped with [Physical_Therapy](https://cozy-palmier-aadc77.netlify.app/).
+This project was bootstrapped with [Physical_Therapy](https://physical-therapy-8f3a8.web.app/).
 
 Physical therapists help people manage pain and improve movement problems. Some pain and movement problems can become chronic and lead to surgery. Physical therapy helps to reduce the symptoms of many chronic diseases and conditions. It also can keep many problems from getting worse.
 
