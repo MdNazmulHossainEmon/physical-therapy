@@ -12,7 +12,7 @@ import medi from "../../images/about/medical.jpg";
 const About = () => {
     return (
         <div>
-            {/* About us top image  */}
+            {/* About us top image*/}
             <section>
                 <div className='about-us-top'>
                     <div>
